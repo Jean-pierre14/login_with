@@ -1,5 +1,11 @@
 {
-    "users":{
-        
-    }
+    "users":[{
+        "name": "Grace bisimwa",
+        "age": "23",
+        "date_of_birth": "14-04-1997"
+    },{
+        "name": "Adolf bisimwa",
+        "age": "20",
+        "date_of_birth": "23-06-2000"
+    }]
 }
