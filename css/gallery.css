@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    display: block;
+    overflow-x: scroll;
+}
+
+.row{
+    display: block;
+    white-space: nowrap;
+}
+.col{
+    display: inline-block;
+    margin-right: 10px;
+}
+.col img{
+    width: 300px;
+}

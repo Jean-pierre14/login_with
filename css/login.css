@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+.content-center{
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.content-center div{
+    padding: 10px;
+    position: relative;
+    width: 100%;
+}
+.content-center div form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+h3{
+    color: #333;
+    font-family: ubuntu;
+}
+.content-center div form button{
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+}
+.content-center div a{
+    display: block;
+    font-family: ubuntu;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+    /* background-color: #ccc; */
+    margin: 2px 0;
+}
+
+#error{
+    visibility: hidden;
+    display: block;
+    padding: 5px;
+    margin: 5px 0;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #ff8a8aab;
+    color: #fff;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    transition: all ease 0.3s;
+}
+
+@media(max-width: 500px){
+    .container-fluid{
+        padding: 0;
+    }
+    .content-center{
+        padding: 0;
+        background-color: #94a2bb;
+        border-radius: 10px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+a.facebook{
+    background-color: #345fb3;
+    color: #fff;
+}
+a.google{
+    background-color: #ff1e1e;
+    color: #fff;
+}
+a.github{
+    background-color: #000;
+    color: #fff;
+}
