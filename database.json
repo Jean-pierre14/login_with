@@ -7,5 +7,10 @@
         "name": "Adolf bisimwa",
         "age": "20",
         "date_of_birth": "23-06-2000"
-    }]
+    },{
+        "name": "daniel bisimwa",
+        "age": "21",
+        "date_of_birth": "09-06-2000"
+    }
+    ]
 }
